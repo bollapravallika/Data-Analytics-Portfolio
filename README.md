@@ -89,9 +89,7 @@ Percentage: 82%
 
 # Connect With Me
 
-- LinkedIn: www.linkedin.com/in/pravallika-bolla-648874426
-- Naukri: 
+- LinkedIn: www.linkedin.com/in/pravallika-bolla-648874426 
 - GitHub: https://github.com/bollapravallika
 
----
  Feel free to explore my repositories and projects.
