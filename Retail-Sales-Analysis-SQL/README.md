@@ -1,85 +1,87 @@
-# Road Accident Analysis 
+
+# Adidas Retail Sales Analysis 
+
 
 # Project Overview
 
-The Road Accident Analysis Dashboard is an interactive Power BI project designed to analyse road accident patterns, casualties, fatalities, severity, and year-over-year trends.
+The Adidas Retail Sales Analysis project uses MySQL to analyse retail sales data and identify sales trends, customer behaviour, product performance, and business insights.
 
-The dashboard helps identify accident patterns across different states, vehicle types, weather conditions, accident causes, and severity levels.
+The project demonstrates practical SQL techniques used for data analysis and reporting.
 
 # Technologies Used
 
-- Power BI
-- Power Query
-- DAX
-- Microsoft Excel
+- MySQL
+- MySQL Workbench
+- SQL
 
-# Key Features
+# SQL Concepts Used
 
-- Total Accidents analysis
-- Total Casualties analysis
-- Total Injuries and Deaths
-- Fatal Accident analysis
-- YoY Growth analysis
-- YTD, MTD, and QTD calculations
-- Previous Year comparison
-- Accident analysis by:
-  - State
-  - Vehicle Type
-  - Weather
-  - Severity
-  - Cause
-  - Age/Demographic dimensions
-- Interactive slicers
-- Field Parameters for dynamic analysis
-- Drill-through pages
-- Report Page Tooltips
-- Page Navigation
-- Decomposition Tree
-- Matrix and Treemap visualizations
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- Aggregate Functions
+- Joins
+- Subqueries
+- CTEs
+- Window Functions
+- Views
+- Stored Procedures
+- PARTITION BY
+- Conditional Logic
 
-# Data Preparation
+# Analysis Performed
 
-Data was cleaned and transformed using Power Query before loading it into Power BI.
+The project analyses:
 
-A Star Schema data model was created using fact and dimension tables to support efficient analysis.
+- Total sales
+- Product performance
+- Customer behaviour
+- Regional performance
+- Sales trends
+- Product rankings
+- Customer rankings
+- Business performance
 
-A dedicated Calendar Table was also created for Time Intelligence calculations.
+# Windows Functions
 
-# DAX Measures
+Window Functions were used with:
 
-Some of the key measures created include:
+```sql
+PARTITION BY
+ORDER BY
+to analyse rankings and performance across different business dimensions.
 
-- Total Accidents
-- Total Casualties
-- Total Injuries
-- Total Deaths
-- Fatal Accidents
-- YoY Growth
-- YTD
-- MTD
-- QTD
-- Previous Year
+ CTEs and Subqueries
 
-# Business Objective
+CTEs and Subqueries were used to simplify complex analytical queries and perform multi-step data analysis.
 
-The objective of this project is to understand accident trends and identify major factors contributing to road accidents, fatalities, and casualties.
+ SQL Views
 
-# Key Insights
+Reusable SQL Views were created to simplify frequently used queries and support reporting requirements.
 
-The dashboard can be used to identify:
+ Stored Procedures
 
-- Accident trends over time
-- Areas with higher accident volumes
-- Vehicle types associated with accidents
-- Impact of weather conditions
-- Accident severity patterns
-- Major causes of accidents
-- Changes in accident performance compared with previous years
+Stored Procedures were used to create reusable SQL logic for analytical and reporting tasks.
 
-# Author
+ Project Objective
 
-**Bolla Pravallika**
+The objective of this project is to strengthen SQL analytical skills and demonstrate the ability to extract meaningful business insights from retail sales data.
 
-Data Analyst | Power BI | SQL | Excel
+ Key Insights
 
-LinkedIn: Add your LinkedIn profile link here
+The analysis can help identify:
+
+Top-performing products
+Best-performing regions
+Sales trends
+Customer purchasing behaviour
+Product rankings
+Areas contributing to overall sales performance
+
+ Author
+
+Bolla Pravallika
+
+Data Analyst | SQL | Power BI | Excel
